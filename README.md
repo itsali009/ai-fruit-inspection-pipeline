@@ -136,11 +136,10 @@ Structured Inspection Result.
 
 ## Machine Learning Approach
 This project uses transfer learning and modular model design to solve multiple related inspection tasks. The project focuses not only on model accuracy but also on building a practical and understandable pipeline that can support real operational workflows.
-
-
+![Model Components](assets/screenshots/Model_Components.png)
 
 ## Results Summary
-![Results Summary](assets/screenshots/Results Summary.png)
+![Results Summary](assets/screenshots/Results_Summary.png)
 
 ## Project Highlights
 This project demonstrates:
