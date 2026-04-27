@@ -135,11 +135,79 @@ Structured Inspection Result.
 - Metadata-based prediction
 
 ## Machine Learning Approach
-This project uses transfer learning and modular model design to solve multiple related inspection tasks.The project focuses not only on model accuracy but also on building a practical and understandable pipeline that can support real operational workflows.
+This project uses transfer learning and modular model design to solve multiple related inspection tasks. The project focuses not only on model accuracy but also on building a practical and understandable pipeline that can support real operational workflows.
+
 
 
 ## Results Summary
+![Results Summary](assets/screenshots/Results Summary.png)
 
+## Project Highlights
+This project demonstrates:
+- applied computer vision for a real-world inspection problem
+- modular ML pipeline design
+- image and metadata fusion
+- transfer learning with deep neural networks
+- practical business problem framing
+- structured output generation for decision support
+- experience connecting engineering workflows with AI systems
+
+## Engineering and Product Perspective
+The project was designed with an engineering and product-oriented mindset. Instead of only training isolated models, the focus was on building a system that answers practical operational questions:
+- What fruit is this?
+- What variety is it?
+- Is the quality acceptable?
+- How ripe is it?
+- How should it be stored?
+- How long is it likely to remain usable?
+
+This makes the project relevant for roles involving:
+- Applied AI
+- Computer Vision
+- ML Engineering
+- Technical Product Management
+- Industrial AI
+- Automotive and manufacturing-oriented AI systems
+- Process optimization
+- Data-driven decision support
+
+## Limitations
+The current version is a prototype and has some limitations:
+- Model performance depends on image quality and dataset diversity.
+- Shelf-life prediction depends on the quality of metadata.
+- Real-world deployment would require larger validation datasets.
+- Additional testing would be needed under different lighting and warehouse conditions.
+- Public repository version excludes confidential data and restricted internal artifacts.
+
+## Future Improvements
+Planned or possible improvements include:
+- building a single multi-head neural network for all prediction tasks
+- adding a Streamlit or FastAPI demo interface
+- adding Docker support for easier deployment
+- improving dataset versioning
+- adding automated model evaluation reports
+- adding unit tests for preprocessing and inference modules
+- integrating explainability methods such as Grad-CAM
+- creating a lightweight dashboard for warehouse decision support
+- improving monitoring for model drift and prediction confidence
+
+## Confidentiality Note
+This repository is a public version of an industry-oriented AI project. Confidential company data, internal documents, private datasets, proprietary images, and restricted deployment artifacts are intentionally excluded. The repository focuses on the system architecture, methodology, modular code structure, and public-safe project presentation.
+
+## About the Author
+I am a mechanical, mechatronics and automotive Engineering professional based in Germany with experience in project management, product-oriented technical work, and applied AI.
+My interests include:
+- applied machine learning
+- computer vision
+- industrial AI systems
+- automotive and manufacturing technologies
+- product management for technical systems
+- AI-assisted process optimization
+This project reflects my interest in connecting engineering workflows with practical AI solutions.
+
+## Example Output
+
+## Example Output
 
 ## Example Output
 
