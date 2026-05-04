@@ -68,6 +68,7 @@ The system follows a modular pipeline architecture. A fruit image is passed thro
    Estimates the remaining shelf life using image information and metadata such as storage temperature, humidity, day, and ripeness stage.
 
 ## Architecture
+![Workflow](assets/screenshots/workflow.png)
 
 ```text
 Input Fruit Image
